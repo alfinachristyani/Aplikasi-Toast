@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Toast!"
+        android:textSize="25dp"
+        android:textColor="@color/design_default_color_primary_dark"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/biru"
+        android:textSize="30dp"
+        android:text="TOAST"
+        android:id="@+id/tblToast"
+        android:onClick="toastClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="190dp"
+        android:textStyle="bold"
+        android:textColor="@color/biru"
+        android:background="@color/kuning"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/kounter"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/biru"
+        android:textSize="30dp"
+        android:text="COUNT"
+        android:id="@+id/tblCount"
+        android:onClick="btnCount"/>
+
+</LinearLayout>
